@@ -2,7 +2,7 @@
 
 Criptografía Poscuántica — Universidad Francisco de Vitoria (UFV)
 
-**Autores:** David Sanz Fuertes, María Rivas Ramos, Javier Fernández Meroño
+**Autores:** Javier Fernández Meroño, David Sanz Fuertes, María Rivas Ramos
 
 ## Resumen
 
@@ -16,12 +16,4 @@ Este repositorio contiene una implementación en **SageMath/Python** de las tres
 
 ## Requisitos
 
-- [SageMath](https://www.sagemath.org/) (kernel 10.8 o compatible)
-
-## Cómo ejecutar
-
-Abrir `Implementacion.ipynb` con Jupyter y kernel de SageMath, y ejecutar las celdas en orden: parámetros → `keygen()` → `sign()` → `verify()`.
-
-## Parámetros
-
-Variante equivalente a **Dilithium2** (128 bits de seguridad): q = 8.380.417, n = 256, (k, l) = (4, 4).
+- [SageMath](https://www.sagemath.org/) 
