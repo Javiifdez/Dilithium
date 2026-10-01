@@ -1,19 +1,19 @@
-# Implementación de CRYSTALS-Dilithium
+# CRYSTALS-Dilithium Implementation
 
-Criptografía Poscuántica — Universidad Francisco de Vitoria (UFV)
+Post-Quantum Cryptography: Universidad Francisco de Vitoria (UFV)
 
-**Autores:** Javier Fernández Meroño, David Sanz Fuertes, María Rivas Ramos
+**Authors:** Javier Fernández Meroño, David Sanz Fuertes, María Rivas Ramos
 
-## Resumen
+## Overview
 
-Dilithium es un esquema de firma digital resistente a ataques cuánticos, estandarizado por el NIST como **FIPS 204**. Su seguridad se basa en problemas sobre retículas modulares (**Module-SIS** y **Module-LWE**), en lugar de la factorización o el logaritmo discreto que rompería un ordenador cuántico.
+Dilithium is a quantum-resistant digital signature scheme, standardized by NIST as **ML-DSA** in **FIPS 204**. Its security is based on problems over module lattices (**Module-SIS** and **Module-LWE**), rather than on integer factorization or the discrete logarithm problem, which a quantum computer would break.
 
-Este repositorio contiene una implementación en **SageMath/Python** de las tres operaciones del esquema (KeyGen, Sign, Verify), usando la técnica de **Fiat-Shamir con abortos** para evitar que la firma filtre información sobre la clave secreta.
+This repository contains a **SageMath/Python** implementation of the scheme's three operations (KeyGen, Sign, Verify), using the **Fiat-Shamir with aborts** technique to prevent signatures from leaking information about the secret key.
 
-## Contenido
+## Contents
 
-- `Implementacion.ipynb` — Notebook de SageMath con la implementación completa y una prueba de firma/verificación.
+- `Implementacion.ipynb`: SageMath notebook with the full implementation and a sign/verify test.
 
-## Requisitos
+## Requirements
 
-- [SageMath](https://www.sagemath.org/) 
+- [SageMath](https://www.sagemath.org/)
